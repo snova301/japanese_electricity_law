@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataRoot>
+    <Result>
+        <Code>1</Code>
+        <Message>取得条件に該当する法令データが返却上限容量を超えています。対象法令データは法令データダウンロード画面より取得してください。</Message>
+    </Result>
+</DataRoot>
