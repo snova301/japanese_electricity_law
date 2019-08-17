@@ -1,0 +1,2 @@
+# japanese_electricity_law
+日本の電気に関する法令をまとめます
