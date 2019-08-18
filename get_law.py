@@ -29,6 +29,7 @@ def mk_elec_lawlist():
     return elec_lawname
 
 
+# e-Govから法令の一覧を取得
 def get_lawlist(path_lawlist):
     url_lawlist = 'https://elaws.e-gov.go.jp/api/1/lawlists/1' # api/{Version}/lawdata/{法令番号}
 
@@ -39,6 +40,7 @@ def get_lawlist(path_lawlist):
             f_lawlist.write(res_lawlist.text)
 
 
+# 法令一覧から目的の法令の法令番号を調べる
 def mk_LawName_LawNo_list(path_lawlist):
     ET_root = ET.parse(path_lawlist)
     ET_root = ET_root.getroot()
@@ -61,6 +63,7 @@ def mk_LawName_LawNo_list(path_lawlist):
     return list_LawName, list_LawNo
 
 
+# 法令番号をもとにe-Govから法令の本文を取得
 def get_lawdata(law_name, law_num):
     os.mkdir('law_xml')
 
