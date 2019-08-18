@@ -1,6 +1,6 @@
 import requests
 import xml.etree.ElementTree as ET 
-
+import os
 
 def mk_elec_lawlist():
     elec_lawname = [
@@ -62,8 +62,10 @@ def mk_LawName_LawNo_list(path_lawlist):
 
 
 def get_lawdata(law_name, law_num):
+    os.mkdir('law_xml')
+
     for i_loop, i_lawdata in enumerate(law_num):
-        path_lawname = law_name[i_loop]+'.xml'
+        path_lawname = 'law_xml/' + law_name[i_loop] + '.xml'
         lawdata_url = 'https://elaws.e-gov.go.jp/api/1/lawdata/'+i_lawdata
 
         with requests.get(lawdata_url) as res_lawdata:
