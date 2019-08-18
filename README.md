@@ -40,7 +40,7 @@ law_xml : e-Govから取得された法令のxmlファイル置き場
 コードの使い方はこちらを参照してください。
 
 
-### 規格の収集
+## 規格の収集
 
 電気設備に関係する規格を以下にまとめました。
 
@@ -53,7 +53,7 @@ law_xml : e-Govから取得された法令のxmlファイル置き場
 なお、多くの規格が民間規格なので、著作権のためGithubに上げることはできませんでした。
 
 
-#### JIS規格
+### JIS規格
 
 [国立国会図書館のHP](https://rnavi.ndl.go.jp/research_guide/entry/theme-honbun-400392.php)を見てみると、JIS規格は規格表と呼ばれる冊子を[検索](https://ndlonline.ndl.go.jp/#!/)、閲覧するか、[JISCのHP](https://www.jisc.go.jp/app/jis/general/GnrDataBaseSearch.html)から調べることができます。
 
@@ -62,7 +62,7 @@ law_xml : e-Govから取得された法令のxmlファイル置き場
 - [kikakurui.com](https://kikakurui.com/)
 
 
-#### JEC規格
+### JEC規格
 
 [電気学会　電気規格調査会](http://www.iee.or.jp/honbu/jec/index.htm)が作成している規格です。
 
@@ -70,7 +70,7 @@ law_xml : e-Govから取得された法令のxmlファイル置き場
 中身を知りたい場合は[電気学会のHP](https://www.iee.jp/pub/jec/)で冊子または電子版を購入してください。
 
 
-#### 内線規定
+### 内線規定
 
 電気需要場所における電気設備の保安を確保するための民間規格です。
 電力会社によって付録が違います。
@@ -79,7 +79,7 @@ law_xml : e-Govから取得された法令のxmlファイル置き場
 内容を知りたい場合は[電気協会のHP](https://store.denki.or.jp/products/detail/301)で購入してください。
 
 
-### 今後の展開
+## 今後の展開
 - データ形式の追加(json, yaml等)
 - HTML、CSSなどを使ってレイアウトを整える
 - 法律改正後自動取得
@@ -91,5 +91,5 @@ law_xml : e-Govから取得された法令のxmlファイル置き場
 - 法令から遮断容量等を計算するツールの開発
 
 
-### おわりに
+## おわりに
 ミスや法令のまとめ方についてご意見ありましたら、ご連絡ください。
